@@ -1,0 +1,52 @@
+@font-face {
+    font-family: 'eliantoregular';
+    src: url('Fonts/elianto-regular-webfont.woff2') format('woff2'),
+         url('Fonts/elianto-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+    #main-container{
+        height:100%;
+        padding: 0 5%;
+        background-color: black;
+    }
+    .right-main{
+        width:30%;
+        position: relative;
+        left:70%;
+    }
+    .description{
+        font-family:'eliantoregular';
+        margin-bottom:240px;
+        margin-top:160px;
+        text-align: center;
+        font-size: 33px;
+        padding: 0 80px;
+        color:white;
+    }
+    .row{
+        padding: 0px;
+    }
+    #main-image{
+        background-image: url("mainPIC.jpg");
+    }
+    .navigation-bar{
+        color:white;
+        position: relative;
+        margin-left: 75%;
+    }
+    #custom-nav{
+        margin-top:0;
+        margin-bottom: 20px;
+        background-color: black;
+    }
+    #nav-col{
+        padding-left:0;
+        padding-right: 0;
+    }
+
+    .navbar-brand{
+        font-family:'eliantoregular';
+    }
